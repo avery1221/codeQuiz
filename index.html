@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Javascript Quiz</title>
+        <link rel="stylesheet" href= "cascade.css">
+        <link rel="stylesheet" href="resetCSS.css">
+      </head>
+      <body>
+        <header> 
+          <h1 style= font-size:60px;>Javascript Quiz</h1>
+      </header>
+      <div id="container" class= "container">   
+        <p style="font-size: 40px;text-align: center;background-color: darkkhaki;">Time Left: <span id="display"></span></p>
+          <div id="question-container" class="hide" class style="font-size: 50px;">
+          <div id="question">Question</div>
+          <div id="answer-buttons" class="btn-grid">
+            <button id="btn-answer" class="btn">Answer 1</button>
+            <button id="btn-answer" class="btn">Answer 2</button>
+            <button id="btn-answer" class="btn">Answer 3</button>
+            <button id="btn-answer" class="btn">Answer 4</button>
+            <br>
+            <br>
+          <div id='answer'>
+          </div>
+          </div>
+          </div>
+          <div class="controls">
+            <button id ="score-button" type="button" class="score-btn hide">Score</button>
+            <button id ="next-button" type="button" class="next-btn hide">Next</button>
+          </div>
+        </div>
+            <br>
+            <br>
+            <button id ="start-button" type="button" class="start-btn">Start</button>
+        <div id="final" class="final hide" style=" background-color: white; height: 90px; width: 400px;text-align: center;">
+              Score : <p id="score" style="font-size: 30px;"></p>
+              Name: <input type="text" id="myText">
+              <button id ="submit-button" type="button" class="submit-btn">Submit</button>
+            </div>
+        <fieldset id="field" class="field hide" style=" background-color: white; height: 300px; width: 400px;">
+          <legend style="background-color: ivory;font-size: 40px;text-align: center;">HighScore</legend>
+          <div id="lsOutput" style="display: block;"></div>
+        </fieldset>
+        <script defer src="java.js"></script>
+    </body>
+      </html>
+
+
+
+
+
